@@ -1,11 +1,37 @@
 <!doctype html>
 <html>
 <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/>
+    <link rel="shortcut icon" href="./favicon.ico"/>
+    <title>HEOB IP Solutions - Patentingenieurbüro</title>
+    <link href="./index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "url": "http://www.heob-ip.de",
+            "logo": "http://www.heob-ip.de/heobLogo.png"
+        }
+    </script>
+</head>
+<head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
 </head>
 <body>
-{% include navigation.html %}
-{{ content }}
+
+<div class="container">
+    <img class="logo" src="Logo.svg" alt="HEOB IP Solutions Logo">
+    {% include navigation.html %}
+    <div class="content">
+        {{ content }}
+    </div>
+</div>
+<div class="footer">
+    <a href="impressum.html">IMPRESSUM</a>
+</div>
 </body>
 </html>

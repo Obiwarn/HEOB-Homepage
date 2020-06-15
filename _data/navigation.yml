@@ -1,4 +1,4 @@
-- name: Home
+- name: START
   link: /
-- name: About
-  link: /about.html
+- name: KONTAKT
+  link: /impressum.html
