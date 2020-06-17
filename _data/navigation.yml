@@ -1,4 +1,6 @@
 - name: START
   link: /
+- name: JOBS
+  link: /jobs.html
 - name: KONTAKT
   link: /impressum.html
